@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: Century, 'Times New Roman', serif;
     line-height: 1.6;
     color: #333;
     background-color: #fff;
@@ -17,11 +17,13 @@ body {
 body.rtl {
     direction: rtl;
     text-align: right;
+    font-family: 'Noto Sans Arabic', 'Noto Sans', sans-serif;
 }
 
 body.ltr {
     direction: ltr;
     text-align: left;
+    font-family: Century, 'Times New Roman', serif;
 }
 
 /* Container */
@@ -103,8 +105,8 @@ header {
 
 /* Hero Section */
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: #2c3e50;
     padding: 4rem 0;
     text-align: center;
 }
@@ -113,15 +115,34 @@ header {
     font-size: 3rem;
     margin-bottom: 1rem;
     font-weight: 700;
+    color: #2c3e50;
 }
 
 .hero-section p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    opacity: 0.9;
+    color: #495057;
     max-width: 600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Arabic font styling for hero section */
+body.rtl .hero-section h2 {
+    font-family: 'Noto Sans Arabic', 'Noto Sans', sans-serif;
+}
+
+body.rtl .hero-section p {
+    font-family: 'Noto Sans Arabic', 'Noto Sans', sans-serif;
+}
+
+/* English font styling for hero section */
+body.ltr .hero-section h2 {
+    font-family: Century, 'Times New Roman', serif;
+}
+
+body.ltr .hero-section p {
+    font-family: Century, 'Times New Roman', serif;
 }
 
 .cta-buttons {
@@ -142,25 +163,24 @@ header {
 }
 
 .btn.primary {
-    background: white;
-    color: #667eea;
+    background: #3498db;
+    color: white;
 }
 
 .btn.primary:hover {
-    background: transparent;
+    background: #2980b9;
     color: white;
-    border-color: white;
 }
 
 .btn.secondary {
     background: transparent;
-    color: white;
-    border-color: white;
+    color: #3498db;
+    border-color: #3498db;
 }
 
 .btn.secondary:hover {
-    background: white;
-    color: #667eea;
+    background: #3498db;
+    color: white;
 }
 
 /* Sections */
