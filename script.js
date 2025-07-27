@@ -31,7 +31,7 @@ const translations = {
         addressLabel: "Address",
         addressText: "Ardhiya Herafiya, Mohammed Nazzal Al-Moassab, Block 4, Main street, Farwaniya, Kuwait",
         phoneLabel: "Phone",
-        phoneText: "6665 0502",
+        phoneText: "60400409",
         hoursLabel: "Business Hours",
         hoursText: "Open Everyday: 10:00 - 22:00",
         footerText: "© 2024 World Motors Cars. All rights reserved.",
