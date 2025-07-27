@@ -29,11 +29,11 @@ const translations = {
         step3Desc: "Receive a competitive offer for your car",
         contactTitle: "Contact Us",
         addressLabel: "Address",
-        addressText: "Ardhiya Herafiya, Mohammed Nazzal Al-Moassab, Block 4, Shop 13, Main street, Farwaniya, Kuwait",
+        addressText: "Ardhiya Herafiya, Mohammed Nazzal Al-Moassab, Block 4, Main street, Farwaniya, Kuwait",
         phoneLabel: "Phone",
         phoneText: "6665 0502",
         hoursLabel: "Business Hours",
-        hoursText: "Monday - Sunday: 10:00 - 22:00",
+        hoursText: "Open Everyday: 10:00 - 22:00",
         footerText: "© 2024 World Motors Cars. All rights reserved.",
         footerLocation: "Farwaniya, Kuwait"
     },
@@ -66,12 +66,12 @@ const translations = {
         step3Desc: "احصل على عرض تنافسي لسيارتك",
         contactTitle: "اتصل بنا",
         addressLabel: "العنوان",
-        addressText: "عريضية حرافية، محمد نزال المعصب، بلوك ٤، محل ١٣، الشارع الرئيسي، الفروانية، الكويت",
+        addressText: "العارضية الحرفية، محمد نزال المعصب، بلوك 4، على الشارع الرئيسي، الفروانية، الكويت",
         phoneLabel: "الهاتف",
-        phoneText: "٦٦٦٥ ٠٥٠٢",
+        phoneText: "66650502",
         hoursLabel: "ساعات العمل",
-        hoursText: "الاثنين - الأحد: ١٠:٠٠ - ٢٢:٠٠",
-        footerText: "© ٢٠٢٤ شركة عالم المواتر للسيارات. جميع الحقوق محفوظة.",
+        hoursText: "مفتوح يومياً من : 10:00 - 22:00",
+        footerText: "© شركة عالم المواتر لبيع وشراء السيارات. جميع الحقوق محفوظة.",
         footerLocation: "الفروانية، الكويت"
     }
 };
